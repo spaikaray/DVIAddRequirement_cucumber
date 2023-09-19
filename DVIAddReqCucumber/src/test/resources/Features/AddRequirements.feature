@@ -27,3 +27,5 @@ Feature: Verify user is able to add requirements in the application
     When user connects to the DB table
     And executes the select statement
     Then new record should be available in the DB table 
+    
+    #Test scenario 
