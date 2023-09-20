@@ -33,13 +33,13 @@ public class Hooks {
 		 System.out.println("Login button clicked");
 		 Thread.sleep(3000);
 	
-		driver.findElement(By.id("i0116")).sendKeys("spaikaray@dvitechnologies.com");
+		driver.findElement(By.id("i0116")).sendKeys("username");
 		driver.findElement(By.id("idSIButton9")).click();
 		 System.out.println("User Name entered");
 		 Thread.sleep(3000);
 	
 
-		driver.findElement(By.name("passwd")).sendKeys("Pittsburgh@82");
+		driver.findElement(By.name("passwd")).sendKeys("password");
 		 System.out.println("Password entered");
 		 Thread.sleep(3000);
 		 		
